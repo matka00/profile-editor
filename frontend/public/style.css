@@ -1,0 +1,206 @@
+body {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  background-color: #fcf9f2;
+}
+
+body #decoration {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  margin: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: -1;
+  border-radius: 0 0 50% 50%;
+  background-color: #ff5531;
+}
+
+body .profile-container {
+  width: 400px;
+  display: block;
+  margin: 50px auto;
+}
+
+body .profile-container h2 {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  background-color: #4c002e;
+  color: #fff;
+}
+
+body .profile-container .picture-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  margin: 30px 0;
+}
+
+body .profile-container .picture-container #profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  font-size: 14px;
+  color: #675446;
+  -webkit-box-shadow: 0px 0px 5px #675446;
+          box-shadow: 0px 0px 5px #675446;
+}
+
+body .profile-container .picture-container #picture-file {
+  display: none;
+}
+
+body .profile-container .picture-container #photo-icon {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 90px;
+  left: 230px;
+  margin: 0;
+  border-radius: 50%;
+  background-color: #ff5531;
+  background-image: url(/public/camera.png);
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body .profile-container .success {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 15px;
+  border-radius: 5px;
+  font-weight: 500;
+  background-color: #dff0d8;
+  color: #113917;
+}
+
+body .profile-container .error {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 15px;
+  border-radius: 5px;
+  font-weight: 500;
+  background-color: #f2dede;
+  color: #4c1111;
+}
+
+body .profile-container #introduction {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #675446;
+}
+
+body .profile-container #introduction::-webkit-input-placeholder {
+  color: #b1a398;
+}
+
+body .profile-container #introduction:-ms-input-placeholder {
+  color: #b1a398;
+}
+
+body .profile-container #introduction::-ms-input-placeholder {
+  color: #b1a398;
+}
+
+body .profile-container #introduction::placeholder {
+  color: #b1a398;
+}
+
+body .profile-container input {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 0 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #675446;
+}
+
+body .profile-container input::-webkit-input-placeholder {
+  color: #b1a398;
+}
+
+body .profile-container input:-ms-input-placeholder {
+  color: #b1a398;
+}
+
+body .profile-container input::-ms-input-placeholder {
+  color: #b1a398;
+}
+
+body .profile-container input::placeholder {
+  color: #b1a398;
+}
+
+body .profile-container label {
+  display: inline-block;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #b1a398;
+}
+
+body .profile-container .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+}
+
+body .profile-container .buttons button {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+
+body .profile-container .buttons #save-btn {
+  width: 55%;
+  border-right: 1px solid #675446;
+  border-bottom: 3px solid #675446;
+  background-color: #ff5531;
+}
+
+body .profile-container .buttons #save-btn:active {
+  border: none;
+}
+
+body .profile-container .buttons #delete-btn {
+  width: 30%;
+  border-right: 1px solid #675446;
+  border-bottom: 3px solid #675446;
+  background-color: #ffc296;
+}
+
+body .profile-container .buttons #delete-btn:active {
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */
